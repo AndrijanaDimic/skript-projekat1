@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Sreda 3</title>
+    <link rel="stylesheet" href="stillProduct.css">
+    <script src="productSettings.js"></script>
+</head>
+
+<body onload="init()">
+    <h1>Product Managment</h1>
+    <div class="container">
+
+        <br>
+        <hr>
+        <center>
+            <table style="width:600px">
+                <thead>
+                    <tr>
+                        <th width="80px">Id</th>
+                        <th width="30px">Name</th>
+                        <th width="30px">Price</th>
+                        <th width="30px">Description</th>
+                        <th width="30px">Product Type Id</th>
+                    </tr>
+                </thead>
+                <tbody id="productTable"></tbody>
+            </table>
+        </center>
+        <h1>Add product</h1>
+        <center>
+            <hr>
+            <br>
+            <label for=""><b>Price: </b></label>
+            <input type="text" , name="price" , placeholder="Add price "id="price" , value="" , required>
+            <br>
+            <br>
+            <label for="Describe product.."><b>Description</b></label>
+            <input type="text" placeholder="Add Description" name="description" id="description", required>
+            <br>
+            <br>
+            <label for="Name"><b>Name: </b></label>
+            <input type="text" placeholder="Add name", name="name" id="name", required >
+            <br>
+            <br>
+            <label for="ProductType"><b>ProductType: </b></label>
+            <input type="text" placeholder="Add productType", name="productTypeId" id="productTypeId", required >
+            <br>
+            <br>
+            <input type="button" id="btnPost" value="Add product">
+        </center>
+        <hr>
+        <h1> Delete </h1>
+        <center>
+            <label for="Delete"><b>Delete </b></label>
+            <input type = "text", placeholder="For id : "name = "id", id = "id", value = "">
+            <input type="button" id="btnDelete" value="Delete obj">
+        </center>
+        <hr>
+        <h1>Edit </h1>
+            <center>
+                <label for=""><b>Enter id: </b></label>
+                <input type="text" , name="id2" , placeholder="For id : "id="id2" , value="", required>
+                <br>
+                <br>
+                <label for="Price"><b>Change price </b></label>
+                <input type="text" name="price2" placeholder="Change price" id="price2" , value="">
+                <br>
+                <br>
+                <label for="Describe product.."><b>Change Description</b></label>
+                <input type="text" placeholder="Change Description" name="description2" id="description2", value = "">
+                <br>
+                <br>
+                <label for="Name"><b>Name: </b></label>
+                <input type="text" placeholder= "Add Name" name="name2" id="name2">
+                <input type="button" id="btnChange" value="Change name">
+                <br>
+                <br>
+                </center>
+    </div>
+    <div>
+        <button type="turnBack"  class="btn btn-primary" id="turnBack">Turn Back </button>
+            </div>
+    
+    <hr>
+
+</body>
+
+</html>

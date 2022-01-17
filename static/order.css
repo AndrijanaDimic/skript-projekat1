@@ -1,0 +1,8 @@
+table tr td{
+    border:1px solid silver;
+}
+
+table tr:nth-child(2n){
+    background: orange;
+}
+
