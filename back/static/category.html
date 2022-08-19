@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Sreda 3</title>
+        <link rel="stylesheet" href="stil.css">
+        <script src="category.js"></script>
+    </head>
+    <body onload = "init()">
+        <h1>Category Managment </h1>
+        <div class="container">
+       
+        <br>
+        <hr>
+        <center>
+        <table style="width:600px">
+            <thead>
+                <tr>
+                    <th width="80px">Id</th>
+                    <th width="80px">Name</th>
+                </tr>
+            </thead>
+            <tbody id = "productTable"></tbody>
+        </table>
+    </center>
+    <center>
+        
+        <br>
+        <label for="Id * "><b>Users id</b></label>
+        <input type = "text", name = "id", id = "id", value = "id", required>
+        <br>
+        <br>w
+        <label for="name"><b>New Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" id="name" >
+        <input type="button" id="btnPost" value="Delete obj" >
+        <br>
+        <br>
+    </center>
+        <ul class="list-group">
+            <li class="list-group-item">admin</li>
+            <li class="list-group-item">moderator</li>
+            <li class="list-group-item">user</li>
+           
+          </ul>
+          <center>
+          <label for="Delete"><b>Delete user</b></label>
+          <input type = "text", name = "id2", id = "id2", value = "id">
+          <input type="button" id="btnDelete" value="Delete obj" >
+        </center>
+        </div>
+        <hr>
+        <div>
+            <button type="turnBack" class="btn btn-primary" id="turnBack">Turn Back </button>
+        </div>
+    
+     
+    </body>
+</html>

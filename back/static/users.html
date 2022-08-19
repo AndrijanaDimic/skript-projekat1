@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Sreda 3</title>
+        <link rel="stylesheet" href="stil.css">
+        <script src="skript1.js"></script>
+    </head>
+    <body onload = "init()">
+        <h1>User Managment</h1>
+        <div class="container">
+       
+        <br>
+        <hr>
+        <center>
+        <table style="width:600px">
+            <thead>
+                <tr>
+                    <th width="80px">Id</th>
+                    <th width="80px">Name</th>
+                    <th width="80px">Email</th>
+                    <th width="80px">Role</th>
+
+                </tr>
+            </thead>
+            <tbody id = "usrLst"></tbody>
+        </table>
+    </center>
+    <center>
+        
+        <br>
+        <label for="Id * "><b>Users id</b></label>
+        <input type = "text", name = "id", id = "id", value = "id", required>
+        <br>
+        <br>
+        <label for="email"><b>New Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" >
+        <br>
+        <br>
+        <label for="Role"><b>New Role</b></label>
+        <input type="role" placeholder=:"role" name="role" id="role">
+        <br>
+        <input type="button" id="btnRole" value="Change" >
+    </center>
+        <ul class="list-group">
+            <li class="list-group-item">admin</li>
+            <li class="list-group-item">moderator</li>
+            <li class="list-group-item">user</li>
+           
+          </ul>
+          <center>
+          <label for="Delete"><b>Delete user</b></label>
+          <input type = "text", name = "id2", id = "id2", value = "id">
+          <input type="button" id="btnDelete" value="Delete obj" >
+        </center>
+        </div>
+        <hr>
+        <div>
+            <button type="turnBack" class="btn btn-primary" id="turnBack">Turn Back </button>
+        </div>
+    
+     
+    </body>
+</html>
